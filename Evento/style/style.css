@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.logo-principal {
+    width: 150px;
+    height: 150px;
+}
+.d-flex a{
+    margin-left: 10px;
+   
+     
+ }
+
+.parrafo-principal {
+    font-size: 1.2em;
+}
+
+.caja {
+    width: 840px;
+    position: relative;
+    margin: 0 auto;
+}
+.caja img{
+    display: inline;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.diferenciales {
+    background: #FEFEFE;
+    padding: 3em 0;
+}
+
+.contenido-diferenciales {
+    width: 520px;
+    margin: 0 auto;
+    
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 2.5;
+}
+
+.items:before {
+    content: "★";
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.imagen-diferenciales {
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+   
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: #888888;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*SmartPhone*/
+@media screen and (max-width: 767px){
+    *{
+      max-width: 500px;  
+    }
+    .mapa-contenido {
+        width: 540px;
+        height: 300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1px 5px;
+    }
+    
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    *{
+        max-width: 1100px;  
+    }
+   
+}
+ 
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    
+    
+    
+}
+
